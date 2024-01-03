@@ -6,3 +6,88 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Section 1 */
+.section-1{
+    background-color: rgb(51,54,71);
+}
+.section-1 .sub-section{
+    margin: auto;
+    width: 70%;
+}
+
+.section-1 .sub-section .logo-menu{
+    padding: 10px 0px;
+}
+
+
+.section-1 .sub-section .logo{
+    display: inline-block;
+    width: 49%;
+}
+.section-1 .sub-section .logo div a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 700;
+    color: aliceblue;
+    transition: .2s;
+}
+
+
+.section-1 .sub-section .logo div a:hover{
+    color: rgb(248,124,88);
+}
+
+
+.section-1 .sub-section .menu{
+    display: inline-block;
+    width: 50%;
+}
+.section-1 .sub-section .menu ul{
+    text-align: right;
+}
+.section-1 .sub-section .menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.section-1 .sub-section .menu ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    transition: .2s;
+}
+.section-1 .sub-section .menu ul li:nth-child(4) a{
+    border: 3px solid rgb(248,124,88);
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 7px 25px;
+    border-radius: 5px;
+    background-color: rgb(248,124,88);
+    transition: .2s;
+}
+
+
+.section-1 .sub-section .menu ul li:nth-child(4) a:hover{
+    background: none;
+    border: 3px solid rgb(248,124,88);
+    color: rgb(248,124,88);
+    font-weight: 400;
+}
+.section-1 .sub-section .menu ul li a:hover{
+    color: rgb(248,124,88);
+    font-weight: 400;
+}
+
+
+.heder .text{
+    display: inline-block;
+    width: 65%;
+}
+
+
+.heder .image {
+    display: inline-block;
+    border: none;
+}
